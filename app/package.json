@@ -1,0 +1,21 @@
+{
+  "name": "fairy-wallet",
+  "productName": "Fairy Wallet",
+  "version": "0.10.0",
+  "description": "EOS desktop wallet application for Ledger Nano S",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Taras Shchybovyk",
+    "email": "thchybo@gmail.com",
+    "url": "https://github.com/chentsulin"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "npm run electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@ledgerhq/hw-transport-node-hid": "^4.13.0",
+    "babel-runtime": "^6.26.0"
+  }
+}
