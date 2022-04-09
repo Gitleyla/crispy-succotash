@@ -210,7 +210,7 @@
     "exact-math": "1.0.0",
     "font-awesome": "^4.7.0",
     "history": "^4.7.2",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "prettysize": "^1.1.0",
     "react": "^16.4.1",
     "react-animated-css": "^1.0.4",
